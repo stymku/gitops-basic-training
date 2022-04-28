@@ -1,1 +1,2 @@
+# Init 
 # gitops-basic-training
