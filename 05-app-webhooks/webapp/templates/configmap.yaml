@@ -7,6 +7,4 @@ metadata:
 data:
   index.html: |
     This is version {{ .Chart.AppVersion }} of our app, running in {{ .Values.appType }} <p>
-    New line
-
-
+    New release!
