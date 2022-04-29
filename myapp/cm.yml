@@ -5,4 +5,5 @@ metadata:
 data:
   index.html: |
     Updated line 1 <p>
-    and this is line 2!
+    and this is line 2 <p>
+    and 3 line 
