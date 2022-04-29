@@ -4,7 +4,8 @@ metadata:
   name: {{ include "webapp.fullname" . }}
   labels:
     {{- include "webapp.labels" . | nindent 4 }}
-  link.argocd.argoproj.io/external-link: http://labs.sass.ro:{{.Values.service.externalPort}}
+  annotations:
+    link.argocd.argoproj.io/external-link: http://labs.sass.ro:{{.Values.service.externalPort}}
 spec:
   {{- if not .Values.autoscaling.enabled }}
   replicas: {{ .Values.replicaCount }}
