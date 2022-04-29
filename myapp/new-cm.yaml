@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: new-config
+data:
+  index.html: |
+    Updated line 1 <p>
+    and this is line 2 <p>
+    and 3 line 
