@@ -4,5 +4,5 @@ metadata:
   name: secondapp-config
 data:
   index.html: |
-    This is line 1<p>
+    Updated line 1 <p>
     and this is line 2!
